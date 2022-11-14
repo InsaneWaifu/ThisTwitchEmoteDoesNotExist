@@ -33,7 +33,7 @@ jobs:
       - name: Build
         run: |
           npm i
-          npm run build --base ThisTwitchEmoteDoesNotExist/
+          npm run vite build --base ThisTwitchEmoteDoesNotExist/
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
